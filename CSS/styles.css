@@ -1,0 +1,135 @@
+body{
+      background-color: #DAF1DE;
+      margin: 0;
+      text-align: center;
+      font-family: cursive;
+      color: #40514E;
+    }
+h1{
+  margin-top: 0;
+  font-size: 90px;
+  color: #235347;
+  font-family: "Sacramento", cursive;
+  margin-bottom: 0;
+  padding-top: 40px;
+  text-shadow: 2px 2px 4px white;
+  }
+h2{
+  color: #235347;
+  font-size: 2rem;
+  margin-top: 0;
+}
+h3{
+  color: #8EB69B;
+  text-shadow: 2px 2px 6px white;
+}
+hr{
+  border: dotted #8EB69B 10px;
+  border-bottom: none;
+  margin: 30px auto;
+}
+img{
+  width: 20%;
+}
+p{
+  margin-bottom: 50px;
+}
+a{
+  margin: auto 10px;
+  color: #8EB69B;
+}
+a:hover{
+  color: white;
+}
+.hi{
+  margin-top: 42px;
+}
+.hr1{
+  width: 55%;
+}
+.hr2{
+  width: 50%;
+}
+.me{
+  position: absolute;
+  top: 55%;
+  right: 40%;
+}
+.cloud1{
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+.cloud2{
+  position: absolute;
+  left: 10px;
+  top: 80px;
+}
+.navbar{
+  background-color: #235347;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  z-index: 1000;
+}
+.top{
+      background-image: linear-gradient(#8EB69B,#DAF1DE);
+      position: relative;
+      height: 600px;
+      top: 40px;
+}
+.middle{
+
+}
+.bottom{
+  background-color: #235347;
+  margin-bottom: 0;
+  padding: 30px;
+}
+.btn{
+  border: 8px;
+  color: white;
+  border-radius: 8px;
+  background-color: #235347;
+  padding: 10px;
+  text-decoration-color: none;
+}
+.btn:hover{
+  /*box-shadow:  2px 2px 10px #8EB69B;*/
+  background-image: linear-gradient(#11999E,#235347);
+}
+.btn:link{
+  text-decoration: none;
+  text-decoration-color: none;
+  color: white;
+}
+.footer-link:link{
+  text-decoration: none;
+}
+.skill-row{
+  width: 50%;
+  margin: 30px auto;
+  text-align: left;
+}
+.html-icon{
+  float: left;
+  /*clear: right;(it doesn't allow any thing on the right of it)*/
+  margin-right: 10px;
+  width: 15%;
+  margin-bottom: 10px;
+}
+.ps-icon{
+  float: left;
+  margin-right: 10px;
+  width: 15%;
+}
+.contact-me{
+  margin-bottom: 50px;
+}
+.mark{
+  margin-bottom: 7px;
+  margin-top: 20px;
+  color: white;
+  font-size: 10px;
+}
