@@ -129,7 +129,79 @@ a:hover{
 }
 .mark{
   margin-bottom: 7px;
+/* ============================
+   ✅ Mobile Responsive Fixes
+=============================== */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 2.8em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  .me {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    top: 0;
+    right: 0;
+  }
+
+  .cloud1,
+  .cloud2 {
+    width: 80px;
+    position: relative;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .skill-row {
+    width: 90%;
+    text-align: center;
+  }
+
+  .html-icon,
+  .ps-icon {
+    float: none;
+    display: block;
+    margin: 0 auto 15px auto;
+    width: 60px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 1em;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .footer-link {
+    display: inline-block;
+    margin: 10px;
+    font-size: 0.9em;
+  }
+
+  .mark {
+    font-size: 0.8em;
+  }
+}
+
   margin-top: 20px;
   color: white;
   font-size: 10px;
 }
+
